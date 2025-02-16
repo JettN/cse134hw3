@@ -20,6 +20,7 @@ body {
 header {
     grid-area: header;
     place-self: center;
+    align-items: center;
 }
 
 nav ul {
@@ -28,7 +29,8 @@ nav ul {
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
-    width: 70%
+    margin: 0;
+    width: 70%;
 }
 
 nav ul li {
