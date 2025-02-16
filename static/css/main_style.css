@@ -1,6 +1,26 @@
 body {
     display: grid;
-    grid-template-rows: auto 1fr auto;  /* Header, Main Content, Footer */
+    grid-template-rows: 1fr auto 1fr;  /* Header, Main Content, Footer */
     grid-template-columns: 1fr; /* Single column layout for mobile, will adjust for larger screens */
     min-height: 100vh; /* Ensure full viewport height */
+
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+    place-self: center;
+}
+
+main {
+    grid-area: main;
+    place-self: center;
+}
+
+footer {
+    grid-area: footer;
+    place-self: center;
 }
