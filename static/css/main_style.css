@@ -55,12 +55,14 @@ main {
     display: flex;
     place-self: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-flow: column wrap
+
 }
 
 footer {
     grid-area: footer;
     display: flex;
     place-self: center;
+    justify-content: space-evenly;
 }
