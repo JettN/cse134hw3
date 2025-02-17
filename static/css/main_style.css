@@ -75,8 +75,8 @@ main {
     display: flex;
     place-self: center;
     align-items: center;
-    justify-content: space-evenly;
-    flex-flow: column wrap
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 figcaption {
