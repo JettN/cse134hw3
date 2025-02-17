@@ -60,15 +60,15 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: blue;
-    background-color: white;
+    color: color(display-p3 0.331 0 1);
+    background-color: color-mix(in display-p3, white 70%, yellow 30%);
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
     text-decoration: underline; 
-    color: red;
-    background-color: black;
+    color: color(display-p3 1 0 0.331);
+    background-color: color-mix(in display-p3, red 70%, blue 30%);
 }
 
 main {
