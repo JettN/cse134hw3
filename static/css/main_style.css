@@ -42,8 +42,9 @@ nav ul {
     align-content: center;
     align-items: center;
     text-align: center;
-    padding:0;
+    padding: 0;
     margin:0;
+    gap: 2rem;
     width: 100%;
 }
 
