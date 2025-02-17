@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-rows: 10% auto 10%;  /* Header, Main Content, Footer */
     min-height: 100dvh; /* Ensure full viewport height */
-    min-width: 95dvh;
+    min-width: 95dvw;
 
     grid-template-areas: 
         "header"
