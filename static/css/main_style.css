@@ -79,6 +79,13 @@ main {
     justify-content: flex-start;
 }
 
+iframe {
+    display: block;
+    width: 100dvw;
+    height: 100dvh;
+    border: none;
+}
+
 figcaption {
     text-align: center;
 }
