@@ -6,7 +6,7 @@ body {
     margin: 0;
 
     display: grid;
-    grid-template-rows: 10% auto 10%;  /* Header, Main Content, Footer */
+    grid-template-rows: auto 1fr auto;  /* Header, Main Content, Footer */
     min-height: 100dvh; /* Ensure full viewport height */
     min-width: 95dvw;
 
