@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-
+    padding: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;  /* Header, Main Content, Footer */
     grid-template-columns: 1fr;
@@ -18,6 +18,10 @@ body {
         "footer";
 }
 
+header, main, footer {
+    margin: 0;
+    padding: 0;
+}
 .montserrat-text {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
