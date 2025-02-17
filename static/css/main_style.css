@@ -79,6 +79,11 @@ main {
     justify-content: flex-start;
 }
 
+main:has(aside){
+    text-align: left;
+    align-items: flex-start;
+}
+
 
 img {
     display: block;
