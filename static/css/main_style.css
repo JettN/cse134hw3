@@ -69,7 +69,6 @@ nav ul li a:hover {
     text-decoration: underline; 
     color: red;
     background-color: black;
-    transform: rotate(0.5turn);;
 }
 
 main {
@@ -79,6 +78,16 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+img:hover{
+    transform: rotate(0.5turn);
 }
 
 iframe {
